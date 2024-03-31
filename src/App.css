@@ -101,3 +101,30 @@
 .note-item__footer {
   color: var(--text-300);
 }
+
+
+@media (max-width: 600px) {
+  .note-header {
+    display: flex;
+    align-item: column;
+    flex-direction: column;
+    padding-bottom: 2rem;
+  }
+  .add-new-note {
+    display: flex;
+    flex-direction: column;
+    justify-content: column;
+    width: 100%;
+  }
+
+  .note-app {
+    display: flex;
+    justify-content: column;
+    flex-direction: column;
+  }
+
+  .note-container {
+    width: 100%;
+  }
+}
+
